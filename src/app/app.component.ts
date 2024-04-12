@@ -10,10 +10,10 @@ import { NewComponent } from './components/new-component/new-component.component
   template: `
     <!-- <router-outlet></router-outlet> -->
     <h1>Aprendendo Angular utilizando Components</h1>
-    <app-new-component />
+    <div class="theme-red">
+      <app-new-component />
+    </div>
   `,
 })
-export class AppComponent {
-  title = 'meu-primeiro-proejto-latest';
-}
+export class AppComponent {}
 

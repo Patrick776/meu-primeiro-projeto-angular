@@ -6,7 +6,10 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './new-component.component.html',
-  styleUrl: './new-component.component.css'
+  styleUrl: './new-component.component.scss',
+  styles: [
+
+  ]
 })
 export class NewComponent {
 
